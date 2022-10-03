@@ -13,7 +13,9 @@
             <input  
                 type="text" 
                 required 
-                id="firstname" 
+                id="firstname"
+                minlength="2"
+                maxlength="30" 
                 name="firstname">
         </div>
         <div>
@@ -21,7 +23,9 @@
             <input  
                 type="text" 
                 required  
-                id="lastname"  
+                id="lastname"
+                minlength="2"
+                maxlength="30"  
                 name="lastname">
         </div>
         <div>
@@ -45,7 +49,9 @@
             <select 
                 id="topic" 
                 required name="topic" 
-                size="1"> 
+                size="1"
+                minlength="1"
+                maxlength="500"> 
                     <option value="Je ne suis pas content">Je ne suis pas content</option>
                     <option value="Je suis moyennement satisfait">Je suis moyennement satisfait</option>
                     <option value="Je suis très heureux">Je suis très heureux</option>
